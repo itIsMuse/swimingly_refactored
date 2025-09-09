@@ -2,19 +2,15 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <section className="py-20">
+    <section className="py-20 bg-[#00102e]">
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
         
         {/* Left side text */}
         <div className="space-y-6">
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-900">
-            Welcome to Swimingly Swimming School
+          <h1 className="text-4xl md:text-5xl font-bold text-gray-100">
+            Welcome <br />to <br /> Swimingly Swimming <br /> School
           </h1>
-          <p className="text-lg text-gray-700">
-            Welcome to the official site of Swimingly Swimming School. <br />
-            A school where we teach the best swimming techniques to people of
-            all ages.
-          </p>
+          
           <a
             href="https://forms.gle/asC2oMcouaSeQavMA"
             target="_blank"

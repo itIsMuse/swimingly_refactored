@@ -18,17 +18,17 @@ const classes = [
   
   export default function Classes() {
     return (
-      <section id="classes" className="py-16 transparent">
+      <section id="classes" className="py-16 bg-[#00102e]">
         <div className="max-w-6xl mx-auto px-4">
           <h2 className="text-3xl font-bold text-center mb-10">Our Classes</h2>
           <div className="grid md:grid-cols-3 gap-8">
             {classes.map((cls, idx) => (
               <div
                 key={idx}
-                className="p-6 rounded-2xl shadow-md hover:shadow-xl transition"
+                className="p-6 rounded-2xl shadow-xl hover:shadow-xl transition"
               >
                 <h3 className="text-xl font-semibold mb-4">{cls.title}</h3>
-                <p className="text-gray-700 leading-relaxed">{cls.description}</p>
+                <p className="text-gray-200 leading-relaxed">{cls.description}</p>
               </div>
             ))}
           </div>
