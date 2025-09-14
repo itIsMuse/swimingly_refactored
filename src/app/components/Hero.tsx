@@ -8,14 +8,14 @@ export default function Hero() {
         {/* Left side text */}
         <div className="space-y-6">
           <h1 className="text-4xl md:text-5xl font-bold text-gray-100">
-            Welcome <br />to <br /> Swimingly Swimming <br /> School
+            Welcome to Swimingly Swimming School
           </h1>
           
           <a
             href="https://forms.gle/asC2oMcouaSeQavMA"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block bg-blue-500 text-white font-semibold px-6 py-3 rounded-lg shadow hover:bg-blue-600 transition"
+            className="inline-block bg-[#084f70] hover:bg-[#04344b]  transition duration-500  text-white font-semibold px-6 py-3 rounded-lg shadow "
           >
             Get Started
           </a>

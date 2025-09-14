@@ -1,6 +1,6 @@
 export default function CTA() {
     return (
-      <section className="py-20 bg-blue-600 text-white text-center">
+      <section className="py-20 bg-[#04344b] text-white text-center">
         <div className="max-w-3xl mx-auto px-4">
           <h2 className="text-4xl font-bold mb-6">
             Ready to Start Your Swimming Journey?
@@ -12,7 +12,7 @@ export default function CTA() {
           </p>
           <a
             href="#packages"
-            className="px-8 py-4 bg-white text-blue-600 font-semibold rounded-xl shadow-lg hover:bg-gray-100 transition"
+            className="px-8 py-4 bg-white text-[#04344b] font-semibold rounded-xl shadow-lg hover:bg-[#00102e] hover:text-white transition duration-500"
           >
             View Packages & Book
           </a>

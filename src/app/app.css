@@ -1,4 +1,9 @@
+:root {
+    --clr-accent-100: #084f70;
+    --clr-accent-200: #04344b;
+}
+
 body{
-    background-color: #00102e;
+    background-color: var(--clr-accent-100);
     color: white;
 }
