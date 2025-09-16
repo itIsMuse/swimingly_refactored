@@ -10,7 +10,7 @@ export default function Header() {
   const [open, setOpen] = useState(false);
 
   return (
-    <header className="bg-[#00102e]/50  text-white sticky top-0 z-50">
+    <header className="bg-[#00102e]/50  text-white sticky top-0 z-50 px-4">
       <div className="container mx-auto flex justify-between items-center p-4">
         {/* Logo */}
         <Link href="/">
