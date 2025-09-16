@@ -11,7 +11,7 @@ export default function Header() {
 
   return (
     <header className="bg-[#00102e] text-white sticky top-0 z-50 shadow-md">
-      <div className="container mx-auto flex items-center p-4">
+      <div className="container mx-auto flex items-center p-1">
         {/* Logo */}
         <Link href="/" className="flex-shrink-0">
           <Image
